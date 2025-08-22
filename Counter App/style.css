@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+  padding: 0;
+  height: 100vh; /* পুরো স্ক্রিন height */
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;     /* vertically center */
+  flex-direction: column;  /* উপরে-নিচে সাজানোর জন্য */
+  background-color: #f4f4f4;
+
+}
+.title{
+     font-size: 50px;
+     margin-bottom: 0;
+}
+.count_h{
+     font-size: 50px;
+}
+.btn_container{
+     display: flex;
+     gap: 15px;
+     margin-top: 20px;
+}
+#decrease ,#increase ,#reset{
+     padding: 15px 30px;
+     border-radius: 5px;
+     background-color: red;
+     color: white;
+     font-size: 20px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     letter-spacing: 1.5px;
+     border: none;
+     cursor: pointer;
+     
+}
+
+#reset{
+     background-color: #3b82f6;
+}
+
+#increase{
+     background: #22c55e;
+}
+#increase:hover{
+     background-color: rgb(1, 154, 1);
+}
+#decrease:hover{
+     background-color:rgb(221, 1, 1);
+}
+#reset:hover{
+     background-color:  rgb(70, 128, 175);
+}
