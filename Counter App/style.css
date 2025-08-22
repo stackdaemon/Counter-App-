@@ -52,6 +52,9 @@ body{
 }
 
 /* Responsive part */
+@media screen and (max-width:576px) {
+     
+
 .title ,.count_h{
      font-size: 28px;
 }
@@ -64,4 +67,4 @@ body{
 }
 #decrease ,#increase ,#reset{
      padding: 10px 20px;
-}
+}}
