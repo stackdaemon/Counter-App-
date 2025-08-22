@@ -50,3 +50,18 @@ body{
 #reset:hover{
      background-color:  rgb(70, 128, 175);
 }
+
+/* Responsive part */
+.title ,.count_h{
+     font-size: 28px;
+}
+body{
+     padding: 16px;
+}
+.btn_container{
+     margin-top: 0;
+     padding: 5px;
+}
+#decrease ,#increase ,#reset{
+     padding: 10px 20px;
+}
